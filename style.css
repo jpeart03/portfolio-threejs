@@ -1,0 +1,17 @@
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+#test-list {
+    color: #fff;
+    grid-column: 3 / span 4;
+}
